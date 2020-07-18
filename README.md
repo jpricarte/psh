@@ -7,6 +7,7 @@ I'll not compromise myself to make updates, but, when I have free time, I can ma
 ## Improved built-in functions
 
 - cd
+- clear
 - help
 - exit
 

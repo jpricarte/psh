@@ -10,6 +10,7 @@
 //general constants
 #define TRUE 1
 #define FALSE 0
+#define CLEAR_SCREEN_ANSI "\e[1;1H\e[2J"
 
 //psh loop function
 void psh_loop();
@@ -26,6 +27,7 @@ int psh_launch(char **args);
 
 //Pujol-Shell built-ins
 int psh_cd(char **args);
+int psh_clear(char **args);
 int psh_help(char **args);
 int psh_exit(char **args);
 

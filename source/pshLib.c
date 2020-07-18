@@ -2,12 +2,14 @@
 
 char* builtin_str[] = {
         "cd",
+        "clear",
         "help",
         "exit"
 };
 
 int (*builtin_func[]) (char **) = {
         &psh_cd,
+        &psh_clear,
         &psh_help,
         &psh_exit
 };
@@ -121,6 +123,11 @@ int psh_cd(char **args){
             perror("psh");
         }
     }
+    return 1;
+}
+
+int psh_clear(char **args){
+    printf(CLEAR_SCREEN_ANSI);
     return 1;
 }
 
