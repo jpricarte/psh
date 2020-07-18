@@ -1,0 +1,6 @@
+# ignore objects
+./objects/
+*.o
+
+#ignore compiled
+psh
