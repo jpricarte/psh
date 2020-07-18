@@ -10,7 +10,7 @@ I'll not compromise myself to make updates, but, when I have free time, I can ma
 - help
 - exit
 
-**PLEASE DO NOT USE CTRL+D TO EXIT, IT WILL FUCK YOUR PROCCESS, AND MAYBE YOUR COMPUTER**
+**PLEASE DO NOT USE CTRL+D TO EXIT, IT WILL FUCK YOUR PROCESS, AND MAYBE YOUR COMPUTER**
 
 
 ## FAQ
